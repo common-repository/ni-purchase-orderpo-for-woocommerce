@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.autocomplete_items{}
+							
+input.autocomplete_text[type=text]:focus,
+input.autocomplete_text[type=text]{ 
+
+	border: none; 
+	box-shadow:unset; 
+	outline: unset;
+	display:inline;
+
+}							
+.autocomplete_text{ width: 100%;}
+
+.autocomplete_input{    
+	border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	padding: 3px;
+}
+
+.autocomplete_item{ 
+	border:1px solid #dddddd; 
+	background-color:#e9e9e9; 
+	color:#333333; 
+	padding: 2px; 
+	line-height: 18px; 
+	margin-right: 2px;
+	border-radius: 3px;
+	line-height: 30px;
+	/*display: block;*/
+}
+
+.autocomplete_close{ 
+	cursor:pointer; 
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.ui-menu-item-wrapper.ui-state-disabled {
+  background-color: #aaa;
+  font-weight: bold;
+}
+
+
+							/* Autocomplete
+----------------------------------*/
+.ui-autocomplete { position: absolute; cursor: default; }       
+.ui-autocomplete-loading { background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; }
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+
+/* Menu
+----------------------------------*/
+.ui-menu {
+		list-style:none;
+		padding: 10px;
+		margin: 0;
+		display:block;
+		width:227px;
+}
+.ui-menu .ui-menu {
+		margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+		margin:0;
+		padding: 0;
+		width: 200px;
+}
+.ui-menu .ui-menu-item a {
+		text-decoration:none;
+		display:block;
+		padding:.2em .4em;
+		line-height:1.5;
+		zoom:1;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+		margin: -1px;
+}

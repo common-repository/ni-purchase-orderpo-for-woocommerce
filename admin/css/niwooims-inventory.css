@@ -1,0 +1,168 @@
+#niwooims .row-space-margin{ margin-top:10px;} 
+#niwooims .card { padding:0px;}
+#niwooims .niwooims-background  { background: #fc4b6c;}
+#niwooims .niwooims-border  { border:1px solid #fc4b6c;}
+#niwooims .niwooims-button:hover{ 
+}
+#niwooims .table  { border:1px solid #fc4b6c; font-size: 12px;  }
+#niwooims .table th { text-transform:uppercase; vertical-align:middle;}
+#niwooims  .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+
+
+#niwooims-dashboard  .bg-c-blue {
+background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+#niwooims-dashboard .bg-c-green {
+background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+#niwooims-dashboard  .bg-c-yellow {
+background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+#niwooims-dashboard .bg-c-pink {
+background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+#niwooims  .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+#niwooims .container {
+  padding: 2px 16px;
+}
+/*#niwooims  .table td { text-align:right;}*/
+
+
+#niwooims .niwooims-button {
+	background-color: #ef9a9a;
+	color:#7f0000;
+	font-weight:bold;
+}
+
+/*.btn.disabled, .btn:disabled {
+    opacity: .65;
+}*/
+#niwooims .fa-trash, #niwooims .fa-edit, #niwooims .fa-adjust{
+	 color: #ef9a9a;
+}
+#niwooims .fa-trash:hover, .fa-adjust:hover{
+	 color: #7f0000;
+	cursor: pointer;
+}
+#niwooims .alert { font-size: 14px; padding:5px 5px 5px 10px; }
+#niwooims .small-textbox {/*max-width: 150px*/}
+#niwooims a.anchor_button{ outline:none;}
+
+._validation ul,
+._validation li,
+._adjustment_validation ul,
+._adjustment_validation li,
+.alert ul, .alert li{ margin:auto}
+
+.table td.vendor_id{ text-transform:uppercase;}
+
+.seeach_form_code{max-width:80%;}
+
+
+.wp-core-ui input[type=reset].btn-reset {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    padding: 0 2px 1px;
+    width: auto;
+	
+	padding: .375rem .75rem;
+}
+
+.modal{
+	z-index: 9991;
+}
+
+#niwooims .table thead th.adjustement_column{ width:25px; text-align:center;}
+
+input#adj_new_set_off_quantity{ padding-right:0;}
+
+ 
+
+
+@media screen and (max-width: 1024px){
+	.seeach_form_code{max-width:100%;}
+}
+
+@media screen and (max-width: 480px){
+	.btn.niwooims-button{ width:100%; margin-bottom:3px;}
+}
+
+.summary_card{
+	max-width: 900px;
+}
+
+.summary_card_stock_valuation{
+	max-width: 990px;
+}
+
+tr.selected_row{
+	background-color:#FFDBDB;
+}
+
+tr.invalid_row:nth-child(odd){ 
+	background: #FFDBDB;
+}
+
+tr.invalid_row:nth-child(even){
+	background:#E5AEAE;
+}
+
+tr.invalid_row input.invalid_field{
+	/*background-color:#FFDBDB;*/
+	color:#FF0004;
+	border: 1px solid #FF0004
+}
+
+table._table_purchase_orders td{vertical-align: middle;}
+table._table_purchase_orders th.remove,
+table._table_purchase_orders td.remove{ width: 43px;}
+table._table_purchase_orders td input{ width: 100%;}
+/*.purchase_quantity, .set_off_quantity, .sold_quantity,.stock_adjustment, .balance_quantity{ display: none;}*/
+
+table.new_purchase_orders .sold_quantity{ display: none;}
+table.new_purchase_orders .set_off_quantity{ display: none;}
+table.new_purchase_orders .stock_adjustment{ display: none;}
+
+#niwooims ._table_purchase_orders .small-textbox{ width: 100%}
+
+table.total_purchase_orders{
+	table-layout: fixed ;
+  	width: 100% ;
+}
+table.total_purchase_orders td,
+table.total_purchase_orders th{ text-align: center; font-weight: bold; width:16.66% }
+
+table.total_purchase_orders td.total_purchase_price,
+table.total_purchase_orders th.total_purchase_price{ display: none;}
+
+table._table_purchase_orders tr th.purchase_quantity,
+table._table_purchase_orders tr th.product_total,
+table._table_purchase_orders tr th.purchase_price,
+table._table_purchase_orders tr th.balance_quantity{ max-width:110px;}
+hr.dashed {
+    border-top: 2px dashed #999;
+}
+hr.solid {
+    border-top: 2px solid #999;
+}
+
+.uploaded_image{ border:1px solid #fc4b6c; padding:5px; margin:5px; margin-left:0;}
+
